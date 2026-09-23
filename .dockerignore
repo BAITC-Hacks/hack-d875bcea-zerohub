@@ -6,4 +6,10 @@
 **/var
 **/test-output
 **/*.sqlite3*
+node_modules
+dist
+.env*
+test-results
+playwright-report
+*.tsbuildinfo
 .git
