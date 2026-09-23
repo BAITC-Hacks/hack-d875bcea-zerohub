@@ -1,0 +1,47 @@
+name: akim-city
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    init: true
+    restart: unless-stopped
+    environment:
+      AKIM_DATABASE_PATH: /app/backend/var/akim.sqlite3
+      AKIM_DATA_DIR: /app/data/v1
+      AKIM_ADVISOR_FACTORY: ${AKIM_ADVISOR_FACTORY:-app.services.ai_advisor:RuleBasedAdvisor}
+      AKIM_ANALYSIS_VERSION: ${AKIM_ANALYSIS_VERSION:-person4-v1}
+      AKIM_ANALYSIS_TIMEOUT_SECONDS: "45"
+      AKIM_AI_TIMEOUT_SECONDS: "40"
+      AKIM_AI_MAX_OUTPUT_TOKENS: "2800"
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4.1-mini-2025-04-14}
+      AKIM_CORS_ORIGINS: http://localhost:8080,http://127.0.0.1:8080
+    volumes:
+      - akim_database:/app/backend/var
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 15s
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_DATA_MODE: api
+        VITE_API_BASE_URL: /api
+    init: true
+    restart: unless-stopped
+    ports:
+      - "${AKIM_BIND_ADDRESS:-127.0.0.1}:${AKIM_PORT:-8080}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/api/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 4
+volumes:
+  akim_database:

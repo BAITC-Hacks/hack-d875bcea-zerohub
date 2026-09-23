@@ -1,0 +1,86 @@
+[
+  {
+    "name": "distributed_low_cost",
+    "request": {
+      "dataset_version": "v1",
+      "decisions": [
+        {
+          "initiative_id": "transport_bus_stops",
+          "district_id": "district_01"
+        },
+        {
+          "initiative_id": "greening_trees",
+          "district_id": "district_02"
+        },
+        {
+          "initiative_id": "social_extended_hours",
+          "district_id": "district_03"
+        },
+        {
+          "initiative_id": "safety_lighting",
+          "district_id": "district_04"
+        },
+        {
+          "initiative_id": "services_collection",
+          "district_id": "district_05"
+        }
+      ]
+    }
+  },
+  {
+    "name": "distributed_medium_cost",
+    "request": {
+      "dataset_version": "v1",
+      "decisions": [
+        {
+          "initiative_id": "transport_bus_priority",
+          "district_id": "district_01"
+        },
+        {
+          "initiative_id": "greening_pocket_park",
+          "district_id": "district_02"
+        },
+        {
+          "initiative_id": "social_clinic_upgrade",
+          "district_id": "district_03"
+        },
+        {
+          "initiative_id": "safety_crossings",
+          "district_id": "district_04"
+        },
+        {
+          "initiative_id": "services_maintenance",
+          "district_id": "district_05"
+        }
+      ]
+    }
+  },
+  {
+    "name": "concentrated_medium_cost",
+    "request": {
+      "dataset_version": "v1",
+      "decisions": [
+        {
+          "initiative_id": "transport_bus_priority",
+          "district_id": "district_01"
+        },
+        {
+          "initiative_id": "greening_pocket_park",
+          "district_id": "district_01"
+        },
+        {
+          "initiative_id": "social_clinic_upgrade",
+          "district_id": "district_01"
+        },
+        {
+          "initiative_id": "safety_crossings",
+          "district_id": "district_01"
+        },
+        {
+          "initiative_id": "services_maintenance",
+          "district_id": "district_01"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "district_01",
+    "name": "District A",
+    "population": 50000,
+    "indicators": {
+      "transport": 40,
+      "greening": 30,
+      "social": 50,
+      "safety": 55,
+      "services": 45
+    }
+  },
+  {
+    "id": "district_02",
+    "name": "District B",
+    "population": 68000,
+    "indicators": {
+      "transport": 60,
+      "greening": 45,
+      "social": 35,
+      "safety": 65,
+      "services": 50
+    }
+  },
+  {
+    "id": "district_03",
+    "name": "District C",
+    "population": 43000,
+    "indicators": {
+      "transport": 35,
+      "greening": 65,
+      "social": 45,
+      "safety": 40,
+      "services": 40
+    }
+  },
+  {
+    "id": "district_04",
+    "name": "District D",
+    "population": 59000,
+    "indicators": {
+      "transport": 55,
+      "greening": 40,
+      "social": 60,
+      "safety": 50,
+      "services": 35
+    }
+  },
+  {
+    "id": "district_05",
+    "name": "District E",
+    "population": 46000,
+    "indicators": {
+      "transport": 45,
+      "greening": 55,
+      "social": 40,
+      "safety": 45,
+      "services": 60
+    }
+  },
+  {
+    "id": "district_06",
+    "name": "District F",
+    "population": 54000,
+    "indicators": {
+      "transport": 50,
+      "greening": 35,
+      "social": 55,
+      "safety": 60,
+      "services": 45
+    }
+  }
+]

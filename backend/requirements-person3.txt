@@ -1,0 +1,4 @@
+# Already present in Person 2's requirements.lock. No OpenAI SDK is required.
+httpx==0.28.1
+pydantic==2.13.5
+python-dotenv==1.2.3

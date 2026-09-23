@@ -1,0 +1,203 @@
+{
+  "dataset_version": "v1",
+  "engine_version": "1.0",
+  "decision_count": 5,
+  "complete": true,
+  "initial_budget": 100,
+  "total_cost": 100,
+  "remaining_budget": 0,
+  "baseline": {
+    "districts": [
+      {
+        "id": "district_01",
+        "name": "District A",
+        "population": 50000,
+        "indicators": {
+          "transport": 40,
+          "greening": 30,
+          "social": 50,
+          "safety": 55,
+          "services": 45
+        },
+        "score": 44
+      },
+      {
+        "id": "district_02",
+        "name": "District B",
+        "population": 68000,
+        "indicators": {
+          "transport": 60,
+          "greening": 45,
+          "social": 35,
+          "safety": 65,
+          "services": 50
+        },
+        "score": 51
+      },
+      {
+        "id": "district_03",
+        "name": "District C",
+        "population": 43000,
+        "indicators": {
+          "transport": 35,
+          "greening": 65,
+          "social": 45,
+          "safety": 40,
+          "services": 40
+        },
+        "score": 45
+      },
+      {
+        "id": "district_04",
+        "name": "District D",
+        "population": 59000,
+        "indicators": {
+          "transport": 55,
+          "greening": 40,
+          "social": 60,
+          "safety": 50,
+          "services": 35
+        },
+        "score": 48
+      },
+      {
+        "id": "district_05",
+        "name": "District E",
+        "population": 46000,
+        "indicators": {
+          "transport": 45,
+          "greening": 55,
+          "social": 40,
+          "safety": 45,
+          "services": 60
+        },
+        "score": 49
+      },
+      {
+        "id": "district_06",
+        "name": "District F",
+        "population": 54000,
+        "indicators": {
+          "transport": 50,
+          "greening": 35,
+          "social": 55,
+          "safety": 60,
+          "services": 45
+        },
+        "score": 49
+      }
+    ],
+    "city_average": 47.921875,
+    "lowest_district": 44,
+    "score": 47.1375
+  },
+  "final": {
+    "districts": [
+      {
+        "id": "district_01",
+        "name": "District A",
+        "population": 50000,
+        "indicators": {
+          "transport": 54,
+          "greening": 30,
+          "social": 53,
+          "safety": 69,
+          "services": 45
+        },
+        "score": 50.2
+      },
+      {
+        "id": "district_02",
+        "name": "District B",
+        "population": 68000,
+        "indicators": {
+          "transport": 60,
+          "greening": 58,
+          "social": 37,
+          "safety": 66,
+          "services": 50
+        },
+        "score": 54.2
+      },
+      {
+        "id": "district_03",
+        "name": "District C",
+        "population": 43000,
+        "indicators": {
+          "transport": 35,
+          "greening": 65,
+          "social": 59,
+          "safety": 40,
+          "services": 41
+        },
+        "score": 48
+      },
+      {
+        "id": "district_04",
+        "name": "District D",
+        "population": 59000,
+        "indicators": {
+          "transport": 56,
+          "greening": 41,
+          "social": 60,
+          "safety": 51,
+          "services": 48
+        },
+        "score": 51.2
+      },
+      {
+        "id": "district_05",
+        "name": "District E",
+        "population": 46000,
+        "indicators": {
+          "transport": 45,
+          "greening": 55,
+          "social": 40,
+          "safety": 45,
+          "services": 60
+        },
+        "score": 49
+      },
+      {
+        "id": "district_06",
+        "name": "District F",
+        "population": 54000,
+        "indicators": {
+          "transport": 50,
+          "greening": 35,
+          "social": 55,
+          "safety": 60,
+          "services": 45
+        },
+        "score": 49
+      }
+    ],
+    "city_average": 50.56375,
+    "lowest_district": 48,
+    "score": 50.051
+  },
+  "id": "example-scenario-001",
+  "created_at": "2026-09-23T00:00:00Z",
+  "decisions": [
+    {
+      "initiative_id": "transport_bus_priority",
+      "district_id": "district_01"
+    },
+    {
+      "initiative_id": "greening_pocket_park",
+      "district_id": "district_02"
+    },
+    {
+      "initiative_id": "social_clinic_upgrade",
+      "district_id": "district_03"
+    },
+    {
+      "initiative_id": "safety_crossings",
+      "district_id": "district_01"
+    },
+    {
+      "initiative_id": "services_maintenance",
+      "district_id": "district_04"
+    }
+  ]
+}
