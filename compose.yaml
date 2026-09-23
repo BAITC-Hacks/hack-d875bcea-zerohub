@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - akim_database:/app/backend/var
+    environment:
+      AKIM_CORS_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
+volumes:
+  akim_database:
