@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "source": "rules",
+  "summary": "Your plan spends 100 of 100 units and changes the quality of life score from 47.1 to 50.1. This is a synthetic model result, not a forecast.",
+  "strengths": [
+    "District A has the largest district-score improvement (+6.2 points).",
+    "All five development areas have a decision, with 0 budget units remaining."
+  ],
+  "risks": [
+    "District C remains the lowest-scoring district at 48.0.",
+    "District E, District F receive no net indicator improvement in this plan.",
+    "The model does not estimate implementation time or recurring operating costs."
+  ],
+  "tradeoffs": [
+    "Lane conversion can temporarily disrupt other traffic.",
+    "Ongoing maintenance is required.",
+    "Equipment improvements still require trained staff.",
+    "Changes can alter vehicle travel times.",
+    "Benefits depend on stable staffing and supplies."
+  ],
+  "recommendations": [
+    {
+      "candidate_id": "4:services_maintenance:district_02",
+      "title": "District maintenance crew in District B",
+      "explanation": "Replace District maintenance crew in District D. This tested single-decision change improves your score by 0.1 points.",
+      "decisions": [
+        {
+          "initiative_id": "transport_bus_priority",
+          "district_id": "district_01"
+        },
+        {
+          "initiative_id": "greening_pocket_park",
+          "district_id": "district_02"
+        },
+        {
+          "initiative_id": "social_clinic_upgrade",
+          "district_id": "district_03"
+        },
+        {
+          "initiative_id": "safety_crossings",
+          "district_id": "district_01"
+        },
+        {
+          "initiative_id": "services_maintenance",
+          "district_id": "district_02"
+        }
+      ],
+      "total_cost": 100,
+      "score": 50.123000000000005
+    }
+  ]
+}
