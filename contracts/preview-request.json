@@ -1,0 +1,17 @@
+{
+  "dataset_version": "v1",
+  "decisions": [
+    {
+      "initiative_id": "transport_bus_priority",
+      "district_id": "district_01"
+    },
+    {
+      "initiative_id": "greening_pocket_park",
+      "district_id": "district_02"
+    },
+    {
+      "initiative_id": "social_clinic_upgrade",
+      "district_id": "district_03"
+    }
+  ]
+}
