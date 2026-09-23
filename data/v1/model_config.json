@@ -1,0 +1,15 @@
+{
+  "dataset_version": "v1",
+  "engine_version": "1.0",
+  "initial_budget": 100,
+  "required_decisions": 5,
+  "indicator_weights": {
+    "transport": 0.2,
+    "greening": 0.2,
+    "social": 0.2,
+    "safety": 0.2,
+    "services": 0.2
+  },
+  "city_average_weight": 0.8,
+  "lowest_district_weight": 0.2
+}

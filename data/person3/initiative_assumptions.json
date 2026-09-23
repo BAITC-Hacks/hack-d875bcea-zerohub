@@ -1,0 +1,227 @@
+[
+  {
+    "initiative_id": "transport_bus_stops",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 10,
+    "effects": {
+      "transport": 6,
+      "greening": 0,
+      "social": 1,
+      "safety": 0,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Benefits depend on reliable bus frequency."
+    ]
+  },
+  {
+    "initiative_id": "transport_bus_priority",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 20,
+    "effects": {
+      "transport": 12,
+      "greening": 0,
+      "social": 2,
+      "safety": 1,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Lane conversion can temporarily disrupt other traffic."
+    ]
+  },
+  {
+    "initiative_id": "transport_junction",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 30,
+    "effects": {
+      "transport": 18,
+      "greening": -2,
+      "social": 0,
+      "safety": 4,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Construction uses space and causes temporary disruption."
+    ]
+  },
+  {
+    "initiative_id": "greening_trees",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 10,
+    "effects": {
+      "transport": 0,
+      "greening": 7,
+      "social": 0,
+      "safety": 0,
+      "services": 0
+    },
+    "tradeoffs": [
+      "New trees need years to reach their full canopy."
+    ]
+  },
+  {
+    "initiative_id": "greening_pocket_park",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 20,
+    "effects": {
+      "transport": 0,
+      "greening": 13,
+      "social": 2,
+      "safety": 1,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Ongoing maintenance is required."
+    ]
+  },
+  {
+    "initiative_id": "greening_corridor",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 30,
+    "effects": {
+      "transport": 1,
+      "greening": 19,
+      "social": 2,
+      "safety": 2,
+      "services": -1
+    },
+    "tradeoffs": [
+      "Large planting areas increase the maintenance workload."
+    ]
+  },
+  {
+    "initiative_id": "social_extended_hours",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 10,
+    "effects": {
+      "transport": 0,
+      "greening": 0,
+      "social": 7,
+      "safety": 1,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Staff schedules and operating costs must be sustained."
+    ]
+  },
+  {
+    "initiative_id": "social_clinic_upgrade",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 20,
+    "effects": {
+      "transport": 0,
+      "greening": 0,
+      "social": 14,
+      "safety": 0,
+      "services": 1
+    },
+    "tradeoffs": [
+      "Equipment improvements still require trained staff."
+    ]
+  },
+  {
+    "initiative_id": "social_education",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 30,
+    "effects": {
+      "transport": 0,
+      "greening": -1,
+      "social": 21,
+      "safety": 1,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Construction and staffing require long-term planning."
+    ]
+  },
+  {
+    "initiative_id": "safety_lighting",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 10,
+    "effects": {
+      "transport": 1,
+      "greening": 0,
+      "social": 0,
+      "safety": 7,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Lighting needs maintenance and responsible placement."
+    ]
+  },
+  {
+    "initiative_id": "safety_crossings",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 20,
+    "effects": {
+      "transport": 2,
+      "greening": 0,
+      "social": 1,
+      "safety": 13,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Changes can alter vehicle travel times."
+    ]
+  },
+  {
+    "initiative_id": "safety_streets",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 30,
+    "effects": {
+      "transport": 3,
+      "greening": 0,
+      "social": 1,
+      "safety": 20,
+      "services": -1
+    },
+    "tradeoffs": [
+      "Extensive works temporarily disrupt access."
+    ]
+  },
+  {
+    "initiative_id": "services_collection",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 10,
+    "effects": {
+      "transport": 0,
+      "greening": 1,
+      "social": 0,
+      "safety": 0,
+      "services": 7
+    },
+    "tradeoffs": [
+      "Service standards need ongoing monitoring."
+    ]
+  },
+  {
+    "initiative_id": "services_maintenance",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 20,
+    "effects": {
+      "transport": 1,
+      "greening": 1,
+      "social": 0,
+      "safety": 1,
+      "services": 13
+    },
+    "tradeoffs": [
+      "Benefits depend on stable staffing and supplies."
+    ]
+  },
+  {
+    "initiative_id": "services_modernization",
+    "assumption": "Synthetic educational scenario; cost and indicator effects are illustrative, not empirical estimates.",
+    "cost_units": 30,
+    "effects": {
+      "transport": 1,
+      "greening": 0,
+      "social": 1,
+      "safety": 1,
+      "services": 20
+    },
+    "tradeoffs": [
+      "Specialized equipment requires training and maintenance."
+    ]
+  }
+]

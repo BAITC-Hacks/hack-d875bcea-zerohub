@@ -1,0 +1,377 @@
+[
+  {
+    "id": "transport_bus_stops",
+    "category": "transport",
+    "name": "Better bus stops",
+    "description": "Add shelters, accessible boarding and clearer route information.",
+    "cost": 10,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 6,
+      "greening": 0,
+      "social": 1,
+      "safety": 0,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Benefits depend on reliable bus frequency."
+    ]
+  },
+  {
+    "id": "transport_bus_priority",
+    "category": "transport",
+    "name": "Bus-priority lanes",
+    "description": "Give buses priority on a busy district corridor.",
+    "cost": 20,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 12,
+      "greening": 0,
+      "social": 2,
+      "safety": 1,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Lane conversion can temporarily disrupt other traffic."
+    ]
+  },
+  {
+    "id": "transport_junction",
+    "category": "transport",
+    "name": "Junction redesign",
+    "description": "Redesign a congested intersection for smoother, safer movement.",
+    "cost": 30,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 18,
+      "greening": -2,
+      "social": 0,
+      "safety": 4,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Construction uses space and causes temporary disruption."
+    ]
+  },
+  {
+    "id": "greening_trees",
+    "category": "greening",
+    "name": "Street tree program",
+    "description": "Plant and maintain trees along exposed streets.",
+    "cost": 10,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 0,
+      "greening": 7,
+      "social": 0,
+      "safety": 0,
+      "services": 0
+    },
+    "tradeoffs": [
+      "New trees need years to reach their full canopy."
+    ]
+  },
+  {
+    "id": "greening_pocket_park",
+    "category": "greening",
+    "name": "Neighborhood pocket park",
+    "description": "Turn an underused plot into an accessible green space.",
+    "cost": 20,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 0,
+      "greening": 13,
+      "social": 2,
+      "safety": 1,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Ongoing maintenance is required."
+    ]
+  },
+  {
+    "id": "greening_corridor",
+    "category": "greening",
+    "name": "Green corridor",
+    "description": "Connect fragmented green spaces with planted walking routes.",
+    "cost": 30,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 1,
+      "greening": 19,
+      "social": 2,
+      "safety": 2,
+      "services": -1
+    },
+    "tradeoffs": [
+      "Large planting areas increase the maintenance workload."
+    ]
+  },
+  {
+    "id": "social_extended_hours",
+    "category": "social",
+    "name": "Longer community hours",
+    "description": "Open community facilities for evening and weekend programs.",
+    "cost": 10,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 0,
+      "greening": 0,
+      "social": 7,
+      "safety": 1,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Staff schedules and operating costs must be sustained."
+    ]
+  },
+  {
+    "id": "social_clinic_upgrade",
+    "category": "social",
+    "name": "Local clinic upgrade",
+    "description": "Improve access and capacity at an existing clinic.",
+    "cost": 20,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 0,
+      "greening": 0,
+      "social": 14,
+      "safety": 0,
+      "services": 1
+    },
+    "tradeoffs": [
+      "Equipment improvements still require trained staff."
+    ]
+  },
+  {
+    "id": "social_education",
+    "category": "social",
+    "name": "Education facility expansion",
+    "description": "Add space for learning and community activities.",
+    "cost": 30,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 0,
+      "greening": -1,
+      "social": 21,
+      "safety": 1,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Construction and staffing require long-term planning."
+    ]
+  },
+  {
+    "id": "safety_lighting",
+    "category": "safety",
+    "name": "Better street lighting",
+    "description": "Improve lighting on poorly lit walking routes.",
+    "cost": 10,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 1,
+      "greening": 0,
+      "social": 0,
+      "safety": 7,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Lighting needs maintenance and responsible placement."
+    ]
+  },
+  {
+    "id": "safety_crossings",
+    "category": "safety",
+    "name": "Safer pedestrian crossings",
+    "description": "Add refuge islands, clearer markings and safer crossings.",
+    "cost": 20,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 2,
+      "greening": 0,
+      "social": 1,
+      "safety": 13,
+      "services": 0
+    },
+    "tradeoffs": [
+      "Changes can alter vehicle travel times."
+    ]
+  },
+  {
+    "id": "safety_streets",
+    "category": "safety",
+    "name": "Safe-street redesign",
+    "description": "Redesign a high-risk street with protected walking space.",
+    "cost": 30,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 3,
+      "greening": 0,
+      "social": 1,
+      "safety": 20,
+      "services": -1
+    },
+    "tradeoffs": [
+      "Extensive works temporarily disrupt access."
+    ]
+  },
+  {
+    "id": "services_collection",
+    "category": "services",
+    "name": "Reliable waste collection",
+    "description": "Improve collection schedules and replace worn bins.",
+    "cost": 10,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 0,
+      "greening": 1,
+      "social": 0,
+      "safety": 0,
+      "services": 7
+    },
+    "tradeoffs": [
+      "Service standards need ongoing monitoring."
+    ]
+  },
+  {
+    "id": "services_maintenance",
+    "category": "services",
+    "name": "District maintenance crew",
+    "description": "Improve response to street and public-space maintenance needs.",
+    "cost": 20,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 1,
+      "greening": 1,
+      "social": 0,
+      "safety": 1,
+      "services": 13
+    },
+    "tradeoffs": [
+      "Benefits depend on stable staffing and supplies."
+    ]
+  },
+  {
+    "id": "services_modernization",
+    "category": "services",
+    "name": "Service infrastructure upgrade",
+    "description": "Upgrade district service equipment and utility monitoring.",
+    "cost": 30,
+    "eligible_district_ids": [
+      "district_01",
+      "district_02",
+      "district_03",
+      "district_04",
+      "district_05",
+      "district_06"
+    ],
+    "effects": {
+      "transport": 1,
+      "greening": 0,
+      "social": 1,
+      "safety": 1,
+      "services": 20
+    },
+    "tradeoffs": [
+      "Specialized equipment requires training and maintenance."
+    ]
+  }
+]
